@@ -8,12 +8,19 @@ The BBC England data unit analysed medical officers' reports for various English
 
 Where possible we also gave the overall number of deaths recorded but the way in which individual officers recorded their statistics varied from area to area.
 
-Information had to be manually transcribed from the scanned paper reports to compile figures for different regions and ages. This was particularly challenging as different reports used different reporting conventions: for example, some officers only published total figures, some broke down deaths into one set of age ranges and others used different age ranges. 
-
-Similarly, changes in administrative districts means that mapping the data would have to be done by central points, rather than area shapes, as shape files do not exist for the districts that existed in 1918.
+Information had to be manually transcribed from the scanned paper reports by BBC Radio Gloucestershire's **Faye Hatcher** with assistance from **Daniel Wainwright** from the England Data Unit, to compile figures for different regions and ages. 
 
 Scraping the documents was not feasible: figures appeared on different pages in different reports, and we couldn't guarantee the relevant heading would have been properly OCRd. Breakdowns by location were also inconsistently formatted - Berkshire's report had an 'urban districts' table with a specific influenza row; but the Cambridge one had a table introduced with the sentence "The areas in which these 151 deaths occurred are shown in the following table' - the locations are in rows not columns this time and 'influenza' is mentioned nowhere in the table itself. 
 
+Data entry was particularly challenging as different reports used different reporting conventions: for example, some officers only published total figures, some broke down deaths into one set of age ranges and others used different age ranges. 
+
+Creating a template for data entry which would accommodate this variety was part of the challenge.
+
+Similarly, changes in administrative districts means that mapping the data would have to be done by central points, rather than area shapes, as shape files do not exist for the districts that existed in 1918.
+
+**Jen Meierhans** told some of the tragic stories captured in letters written decades ago and shared with the BBC by the Wellcome Library.
+
+As well as BBC Online, the story was also covered across various BBC radio outlets and BBC Breakfast. 
 
 ## Get the data
 
