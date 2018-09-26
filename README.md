@@ -8,9 +8,16 @@ The BBC England data unit analysed medical officers' reports for various English
 
 Where possible we also gave the overall number of deaths recorded but the way in which individual officers recorded their statistics varied from area to area.
 
+Information had to be manually transcribed from the scanned paper reports to compile figures for different regions and ages. This was particularly challenging as different reports used different reporting conventions: for example, some officers only published total figures, some broke down deaths into one set of age ranges and others used different age ranges. 
+
+Similarly, changes in administrative districts means that mapping the data would have to be done by central points, rather than area shapes, as shape files do not exist for the districts that existed in 1918.
+
+Scraping the documents was not feasible: figures appeared on different pages in different reports, and we couldn't guarantee the relevant heading would have been properly OCRd. Breakdowns by location were also inconsistently formatted - Berkshire's report had an 'urban districts' table with a specific influenza row; but the Cambridge one had a table introduced with the sentence "The areas in which these 151 deaths occurred are shown in the following table' - the locations are in rows not columns this time and 'influenza' is mentioned nowhere in the table itself. 
+
+
 ## Get the data
 
-The data was compiled manually from scanned documents from 1918 and 1919 such as [this one](https://wellcomelibrary.org/item/b29524982#?c=0&m=0&s=0&cv=7&z=-0.4803%2C-0.03%2C1.9517%2C1.0699). 
+The data was compiled manually from scanned documents from 1918 and 1919 such as [this one for Cambridge](https://wellcomelibrary.org/item/b29524982#?c=0&m=0&s=0&cv=7&z=-0.4803%2C-0.03%2C1.9517%2C1.0699) and [this for Berkshire](https://wellcomelibrary.org/item/b28918794#?c=0&m=0&s=0&cv=34&z=-0.0555%2C0.0115%2C2.1111%2C1.0682). 
 
 ## Visualisation
 
